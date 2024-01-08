@@ -21,6 +21,6 @@ echo "present working directory is ${path}"
 #Arthemetic Substitution.
 A=10
 B=20
-SUM=$((${A}+${B}))
+SUM=$((${A}+${B}))  # SUM=$((A+B))-->we can also access like this.
 
 echo "Sum of ${A}+${B}=${SUM}"
